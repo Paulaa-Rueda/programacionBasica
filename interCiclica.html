@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Dibujo Ciclico</title>
+    </head>
+    <body>
+        <h1>Mi primer dibujo ciclico</h1>
+        <p>Cuantas lineas quieres
+            <input type="text" id="texto_lineas"/>
+            <input type="button" value="enviar" id="botoncito"/>
+        </p>
+        <p>Que color prefieres 
+            <select name ="colors" id="eligeColor"> 
+                <option value="pink">rosado</option>
+                <option value="blue">azul</option>
+                <option value="black">negro</option>
+            </select>
+        </p>
+        <center><canvas width="600" height="600" id="ciclico"></canvas>
+        </center> 
+        <script src = "interCiclica.js"></script> 
+    </body>
+</html>
