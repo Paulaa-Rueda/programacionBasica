@@ -3,17 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title> Villa Popocha </title>
+    <style>
+        body
+        {
+            background-color:#fdffce;
+            margin: 0px;
+        }
+
+        .alineacion {
+
+            display: inline-block;
+            vertical-align: top;
+        
+        }
+
+        .central{
+
+            width: 70%;
+            height: 100%;
+            background-color: #fdffce;
+        }        
+        
+    </style>
+    
 </head>
+
+ 
+
 <body>
-    <h1>Villa Popocha</h1>
-    <h3>Bienvenidos a la mejor villa</h3>
-    <p>Tu desafio es personalizar la villa como tu quieras y que el granjero vaya hasta el molino
-        <p>Número de Cerdos <input type="text" id="NumCerdos"></p>
-        <p>Número de Vacas <input type="text" id="NumVacas"></p>
-        <p>Número de Pollos <input type="text" id="NumPollos"></p>
-        <input type="button" value="Seleccionar" id="Seleccionar">
-    </p>
-    <canvas width="500" height="500" id="villaPopocha"></canvas>
+    
+    <div class="alineacion" align="rigth">
+        <img src="img/fondo_largo.png" height="1000">
+    </div>
+    
+
+    <div class="alineacion central" align="center">
+        <!-- <img src="img/fondo ancho.png"> -->
+        <br>
+        <font size="+6" color="Green " >Villa Popocha</font>    
+        <h2>Bienvenidos a la mejor villa</h2>
+        <p>Tu desafio es personalizar la villa como tu quieras y que el granjero vaya hasta el molino
+            <p>Número de Cerdos <input type="text" id="NumCerdos"></p>
+            <p>Número de Vacas <input type="text" id="NumVacas"></p>
+            <p>Número de Pollos <input type="text" id="NumPollos"></p>
+            <input type="button" value="Seleccionar" id="Seleccionar">
+        </p>
+        <canvas width="500" height="500" id="villaPopocha"></canvas>     
+    </div>
+
+    <div class="alineacion" float="left">
+        <img src="img/fondo_largo.png" height="1000">
+    </div>
+
     <script src="villaPopocha.js"></script>
 </body>
 </html>
